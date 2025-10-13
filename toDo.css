@@ -1,0 +1,74 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: cadetblue;
+    display: grid;
+    align-items: baseline;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #ffffff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subHead{
+    color: rgb(50, 65, 110);
+}
+#interactHub{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+
+    background-color: rgb(235, 237, 238);
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+#taskInput{
+    border: none;
+    background: transparent;
+    border: 3px solid rgba(0, 92, 128, 0.331);
+    padding: 5px;
+    border-radius: 25px;
+    outline: none;
+    width: 280px;
+    height: 50px;
+}
+#addBtn{
+    border: none;
+    border-radius: 50px;
+
+    height: 50px;
+    width: 100px;
+
+    background-color: rgb(255, 100, 58);
+    color: white;
+}
+#addBtn:hover{
+    cursor: pointer;
+}
+.closeBtn{
+    background: transparent;
+    border: none;
+}
+.closeBtn:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h3{
+    font-size: 1.4rem;
+}
